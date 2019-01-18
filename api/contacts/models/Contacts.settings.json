@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "contacts",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "default": "",
+      "type": "string"
+    },
+    "message": {
+      "default": "",
+      "maxLength": 2500,
+      "type": "text"
+    }
+  }
+}
